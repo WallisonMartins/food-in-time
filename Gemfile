@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.5.5'
 
 gem 'ransack'
-gem 'geocoder', '~> 1.5', '>= 1.5.1'
+gem 'geocoder', '~> 1.6'
 gem 'active_model_serializers', '~> 0.10.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
